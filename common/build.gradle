@@ -10,14 +10,6 @@ architectury {
     common()
 }
 
-configurations {
-    dev
-}
-
-artifacts {
-    dev(jar)
-}
-
 publishing {
     publications {
         mavenCommon(MavenPublication) {
