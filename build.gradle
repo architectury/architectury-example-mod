@@ -19,6 +19,7 @@ subprojects {
         // The following line declares the mojmap mappings, you may use other mappings as well
         mappings loom.officialMojangMappings()
         // The following line declares the yarn mappings you may select this one as well.
+        // For available versions, see here: https://fabricmc.net/versions.html
         // mappings "net.fabricmc:yarn:1.17.1+build.32:v2"
     }
 }
@@ -42,7 +43,7 @@ allprojects {
 
     tasks.withType(JavaCompile) {
         options.encoding = "UTF-8"
-        options.release = 16
+        options.release = 17
     }
 
     java {
